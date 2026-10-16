@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.log
+nohup.out
+
+# Local cohort matrices and metadata are not part of the source release.
+/data/*
+!/data/README.md
+!/data/external_tests.json
+
+# Historical artifacts are retained locally; new experiments use runs/.
+/runs/
+/results/
+/ablation/
+/shap_external/
+**/results/
+*.pt
+*.pth
+*.pkl
+*.npy
+*.npz
+/prepared/
+/dist/
+/build/
+*.egg-info/

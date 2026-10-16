@@ -1,0 +1,4 @@
+-r requirements.txt
+seaborn>=0.12
+xgboost>=1.7
+lightgbm>=3.3

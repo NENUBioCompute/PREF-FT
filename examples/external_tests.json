@@ -1,0 +1,10 @@
+[
+  {
+    "name": "GSE104942",
+    "features": "../data/GSE104942_intersection_CpGs_after_com.csv.gz",
+    "metadata": "../data/GSE104942_pheno.csv",
+    "matrix_orientation": "cpg_rows",
+    "sample_col": "SampleID",
+    "label_col": "disease.state"
+  }
+]

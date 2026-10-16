@@ -1,0 +1,10 @@
+[
+  {
+    "name": "GSE104942",
+    "features": "/mnt/sfs_turbo/qujing/code/PB_Breast_Cancer/data_after_com_tri/GSE104942_intersection_CpGs_after_com.csv.gz",
+    "metadata": "/mnt/sfs_turbo/qujing/code/PB_Breast_Cancer/output_csv/GSE104942_pheno.csv",
+    "matrix_orientation": "cpg_rows",
+    "sample_col": "SampleID",
+    "label_col": "disease.state"
+  }
+]
