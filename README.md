@@ -7,19 +7,7 @@ PREF-FT combines contextual CpG representations with direct linear, positive-cla
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    X[Standardized CpGs x] --> CERM --> CCEM --> REPM --> SMEM
-    SMEM --> E[Contextual ensemble]
-    X --> L[Linear CpG evidence]
-    SMEM --> P[Positive evidence]
-    SMEM --> A[Prototype evidence]
-    E --> H[PREF Head: sum logits]
-    L --> H
-    P --> H
-    A --> H
-    H --> O[Unaffected / affected]
-```
+<img src="/home/qujing/PREF_FT/Figure/Fig1.png" width="1000"/>
 
 ## Installation
 
