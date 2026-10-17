@@ -7,7 +7,7 @@ PREF-FT combines contextual CpG representations with direct linear, positive-cla
 
 ## Architecture
 
-<img src="/home/qujing/PREF_FT/Figure/Fig1.png" width="1000"/>
+<img src="figure/Fig1.png" width="1000"/>
 
 ## Installation
 
